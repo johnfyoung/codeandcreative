@@ -4754,7 +4754,7 @@ scss-tokenizer@^0.2.3:
 
 "scssstarter@https://github.com/johnfyoung/scssstarter.git":
   version "0.0.0"
-  resolved "https://github.com/johnfyoung/scssstarter.git#1aa4f47b575334048caba5a20a8b7c198745a394"
+  resolved "https://github.com/johnfyoung/scssstarter.git#e284c53282551eb3e66c6a86f541fea6f59bcaf9"
 
 select-hose@^2.0.0:
   version "2.0.0"

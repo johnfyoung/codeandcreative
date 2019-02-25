@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
 @import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+html > body {
+    font-family: 'Crimson Text', Times, serif;
+}
+
 
 h1,
 h2,
@@ -11,5 +17,6 @@ h6 {
 }
 
 p {
+
     margin-bottom: 1.2rem;
 }

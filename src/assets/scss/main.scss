@@ -11,18 +11,9 @@ body {
     }
 }
 
-.background {
-    position: fixed;
-    background: white url('../img/vectors.jpg') center/cover no-repeat fixed ;
-    width: 100vw;
-    height: 100vh;
-}
-
-.background-matte {
-    position: fixed;
-    background-color: rgba(255,255,255,.96);
-    width: 100vw;
-    height: 100vh;
+.brand {
+    font-family: 'Love Ya Like A Sister', cursive;
+    letter-spacing: .1rem;
 }
 
 .cover {
@@ -46,10 +37,7 @@ header {
         .main-header__container {
             margin: 0 auto;
 
-            .brand {
-                font-family: 'Love Ya Like A Sister', cursive;
-                letter-spacing: .1rem;
-            }
+
         }
     }
 }
@@ -109,6 +97,12 @@ header {
         left:50%;
         margin-left:-25px;
         bottom:5px;
+
+        text-align: center;
+
+        .brand {
+            font-size: .8rem;
+        }
     }
 }
 

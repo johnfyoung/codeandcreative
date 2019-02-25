@@ -4,19 +4,56 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Awesome site</title>
+    <title>Code and Creative - Web development by John Young</title>
+    <style>
+        html {
+            visibility: hidden;
+            opacity: 0;
+        }
+    </style> <!-- avoid FOUC -->
 </head>
 
 <body>
-    <main class="container">
-        <div class="row">
-            <div>
-                <p>Hello world</p>
-                <a href="link/">Go here</a>
-            </div>
+    <!-- <div class="background"></div>
+    <div class="background-matte"></div> -->
+    <header class="main-header">
+        <div class="container main-header__container">
+            <div class="brand fade-in animation-wait-short animation-short">codeandcreative.com</div>
         </div>
+    </header>
+    <main class="container" role="main">
+        <section class="intro animation-wait-long animation-short fade-up container">
+            <div class="row">
+                <div class="intro__name col-md-8">
+                    <h1>Hi I'm John.</h1>
+                    <h2>I build with web technologies</h2>
+                </div>
+                <div class="col-md-4">
+                    <img src="./assets/img/john_vector.png" alt="John's face" />
+                </div>
+            </div>
+        </section>
+        <section class="philosophy container">
+            <div class="row">
+                <img class="col-md-5 scroll-watch-fade-up offset-md-1 hide-xs show-md" src="assets/img/shape_03.png"
+                    alt="head phrenology" />
+                <div class="col-md-6 scroll-watch-fade-up">
+                    <h2>My philosophy</h2>
+                    <p>I like to write code and I would like to write a lot of really cool code for you for a lot of
+                        money. But I have found that there a lot of projects that really don't need a lot of cool,
+                        expensive code. There are a lot of ways to solve your web dev issues. <strong>I feel that I
+                            specialize
+                            in understanding your business needs first</strong>. We live in a world where there are a
+                        lot of solutions in search of a problem.</p>
+                    <p>I also believe in user experience over visual design. The modern
+                        web is primarily a mobile experience where often function precedes form. I believe in
+                        prototyping where appropriate.</p>
+                </div>
+                <img class="scroll-watch-fade-up offset-sm-4 offset-xs-3 hide-md" src="assets/img/shape_03.png"
+                    alt="head phrenology" />
+            </div>
+        </section>
     </main>
-
 </body>
 
 </html>

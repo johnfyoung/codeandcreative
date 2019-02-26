@@ -1,8 +1,8 @@
-# webpack-starter-html
+# codeandcreative
 
-Here is a starter project for a simple html, scss, and javascript application.
+A portfolio website
 
-This starter boilerplate incorporates:
+Built on webpack-starter-html:
 
 * webpack 4
 * babel 7
